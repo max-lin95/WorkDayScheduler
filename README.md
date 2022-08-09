@@ -1,4 +1,5 @@
 Work Day Scheduler
+https://max-lin95.github.io/WorkDayScheduler/
 
 When user first lands, the current day and time is displayed
 ![image](https://user-images.githubusercontent.com/103705511/183552419-8f05bebe-18c6-41cc-9d7e-41c2d904a065.png)
