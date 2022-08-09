@@ -39,6 +39,16 @@ $(document).ready(function () {
             }
         })
     }
+    
+    // localStorage.setItem("time", "text", JSON.stringify(time, text));
+    // renderMessage();
+
+    // function renderMessage() {
+    //     var textTime = JSON.parse(localStorage.getItem("text", "time"));
+    //     if (textTime !==null) {
+    //         document.querySelector(".message").textContent = timeTracker();
+    //     }
+    // }
 
     // Get item from local storage
     $("#hour8 .description").val(localStorage.getItem("hour8"));
@@ -53,4 +63,6 @@ $(document).ready(function () {
     $("#hour17 .description").val(localStorage.getItem("hour17"));
 
     timeTracker();
+
+
 })
